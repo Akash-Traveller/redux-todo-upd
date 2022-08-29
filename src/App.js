@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div className='wrapper'>
       <br></br>
-      <h1 className='text-center'>Updated Redux Todo  App </h1>
+      <h1 className='text-center'> Redux Todo  App </h1>
       <Form editFormVisiblelity={editFormVisiblelity} editTodo={editTodo} cancelUpdate={cancelUpdate}/>
       <Todos handleEditClick={handleEditClick} editFormVisiblelity={editFormVisiblelity}/>
       {todosDelete.length > 0 && (
